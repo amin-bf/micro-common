@@ -13,6 +13,7 @@ declare global {
   namespace Express {
     interface Request {
       currentUser?: IUserPayload
+      session: any
     }
   }
 }
