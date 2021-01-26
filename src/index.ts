@@ -11,3 +11,5 @@ const color: IColor = {
 }
 
 console.log(color)
+
+export default color
