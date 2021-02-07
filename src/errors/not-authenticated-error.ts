@@ -1,7 +1,7 @@
 import { CustomError } from "./custom-error"
 
 export class NotAuthenticatedError extends CustomError {
-  statusCode: number = 403
+  statusCode: number = 401
 
   constructor() {
     super("Not Authenticated")

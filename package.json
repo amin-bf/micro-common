@@ -1,6 +1,6 @@
 {
   "name": "@vanguardo/common",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -24,6 +24,7 @@
     "@types/jsonwebtoken": "^8.5.0",
     "express": "^4.17.1",
     "express-validator": "^6.9.2",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "node-nats-streaming": "^0.3.2"
   }
 }
